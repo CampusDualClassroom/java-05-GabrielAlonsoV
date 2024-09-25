@@ -52,11 +52,11 @@ class Exercise05Test {
     @DisplayName("Check multiply")
     void testCheckMultiply() {
         Exercise05.checkMultiply(6,3);
-        boolean checkMulti = this.outContent.toString().contains(" es múltiplo de ");
+        boolean checkMulti = this.outContent.toString().contains(" es multiplo de ");
         this.outContent.reset();
         assertTrue(checkMulti, "n1 not multiply of n2");
         Exercise05.checkMultiply(3,6);
-        boolean checkNotMulti = this.outContent.toString().contains(" no es múltiplo de ");
+        boolean checkNotMulti = this.outContent.toString().contains(" no es multiplo de ");
         this.outContent.reset();
         assertTrue(checkNotMulti, "n1 multiply of n2");
     }
