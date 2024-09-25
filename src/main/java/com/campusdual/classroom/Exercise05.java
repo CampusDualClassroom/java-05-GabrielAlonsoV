@@ -23,8 +23,8 @@ public class Exercise05 {
     }
 
     //TODO ↓
-    // Si es múltiplo, tiene que devolver el siguiente mensaje: X es múltiplo de Y
-    // Si no es múltiplo, tiene que devolver el siguiente mensaje: X no es múltiplo de Y
+    // Si es multiplo, tiene que devolver el siguiente mensaje: X es multiplo de Y
+    // Si no es multiplo, tiene que devolver el siguiente mensaje: X no es multiplo de Y
     public static void checkMultiply(int n1, int n2) {
     if (n2 != 0 && n1 % n2 == 0) {
         System.out.println(n1 + " es multiplo de " + n2);
